@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import { FaCheck } from 'react-icons/fa';
 
 const CleaningTypes: React.FC = () => {

@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import * as echarts from 'echarts';
 import { FaCheckCircle } from 'react-icons/fa';
 

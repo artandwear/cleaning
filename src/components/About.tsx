@@ -63,8 +63,8 @@ const About: React.FC = () => {
                             <Image
                                 src="/images/whyus-bg.jpg"
                                 alt="About Us"
-                                fill
                                 className="object-cover"
+                                layout="fill"
                                 priority
                             />
                         </div>

@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
             <div className="container mx-auto px-4 py-16">
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     <div>
-                        <h3 className="text-xl font-semibold mb-4">CleanPro Elite</h3>
+                        <h3 className="text-xl font-semibold mb-4">Esjay</h3>
                         <p className="text-gray-400">
                             Professional cleaning services for homes and businesses.
                         </p>

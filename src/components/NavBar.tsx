@@ -19,7 +19,7 @@ const Navbar: React.FC<NavbarProps> = ({ setShowBookingModal }) => {
                                 src="/images/logo.png"
                                 alt="Esjay logo"
                                 width={160}
-                                height={40}
+                                height={100}
                                 priority
                             />
                         </Link>

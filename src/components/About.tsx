@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import Image from 'next/image';
 import * as echarts from 'echarts';
 import { FaCheckCircle } from 'react-icons/fa';
 
@@ -58,11 +59,13 @@ const About: React.FC = () => {
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap items-center">
                     <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-                        <div className="rounded-lg overflow-hidden">
-                            <img
+                        <div className="relative aspect-[4/3] w-full rounded-lg overflow-hidden">
+                            <Image
                                 src="/images/whyus-bg.jpg"
                                 alt="About Us"
-                                className="w-full"
+                                fill
+                                className="object-cover"
+                                priority
                             />
                         </div>
                     </div>

@@ -26,7 +26,7 @@ const Hero: React.FC<HeroProps> = ({ setShowBookingModal }) => {
                                 <span className="text-blue-400">We Do It All</span>
                             </h1>
                             <p className="mt-6 text-xl text-gray-200 leading-relaxed">
-                                Transform your space with our premium cleaning services. Whether it's your cozy home or busy workplace, we deliver spotless results that exceed expectations.
+                                Transform your space with our premium cleaning services. Whether it&rsquo;s your cozy home or busy workplace, we deliver spotless results that exceed expectations.
                             </p>
                             <div className="mt-8 flex flex-wrap gap-4">
                                 <button
